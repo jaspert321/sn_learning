@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_582591_test_app_repair_request">x_582591_test_app_repair_request</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>REP</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>jasper.tax</sys_created_by>
+        <sys_created_on>2022-12-22 20:46:40</sys_created_on>
+        <sys_id>16bde033973b15107da3fba6f053af2d</sys_id>
+        <sys_name>REP</sys_name>
+        <sys_package display_value="Test App" source="x_582591_test_app">072da47f97f715107da3fba6f053af2f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">072da47f97f715107da3fba6f053af2f</sys_scope>
+        <sys_update_name>sys_number_16bde033973b15107da3fba6f053af2d</sys_update_name>
+    </sys_number>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">1a7056e4f90211108c8bd16244dfe705</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>jasper.tax</sys_created_by>
+        <sys_created_on>2022-12-22 20:46:39</sys_created_on>
+        <sys_id>c6bde033973b15107da3fba6f053af1f</sys_id>
+        <sys_package display_value="Test App" source="x_582591_test_app">072da47f97f715107da3fba6f053af2f</sys_package>
+    </sys_package_dependency_m2m>
+</record_update>
