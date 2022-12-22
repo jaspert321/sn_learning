@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_state_transition">
+    <sys_state_transition action="INSERT_OR_UPDATE">
+        <description>Terminal state</description>
+        <enter_condition table="x_582591_test_app_repair_request">stateIN2^descriptionISNOTEMPTY^EQ<item display_value="Work in Progress" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="2"/>
+            <item endquery="false" field="description" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </enter_condition>
+        <exit_condition/>
+        <order>100</order>
+        <state>3</state>
+        <state_label>Closed Complete</state_label>
+        <state_model display_value="Repair Request Flow">1487347b973b15107da3fba6f053af3c</state_model>
+        <sys_class_name>sys_state_transition</sys_class_name>
+        <sys_created_by>jasper.tax</sys_created_by>
+        <sys_created_on>2022-12-22 21:34:42</sys_created_on>
+        <sys_id>149878bb973b15107da3fba6f053af5c</sys_id>
+        <sys_name>Closed Complete</sys_name>
+        <sys_package display_value="Test App" source="x_582591_test_app">072da47f97f715107da3fba6f053af2f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Test App">072da47f97f715107da3fba6f053af2f</sys_scope>
+        <sys_update_name>sys_state_transition_149878bb973b15107da3fba6f053af5c</sys_update_name>
+        <terminal_state>true</terminal_state>
+    </sys_state_transition>
+</record_update>
